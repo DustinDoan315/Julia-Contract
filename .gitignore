@@ -1,13 +1,35 @@
+# Ignore node_modules and yarn error logs
 node_modules/
 yarn-error.log
 .yarn/*
 .pnp.*
 .DS_Store
+
+# Ignore Backend-specific folders
 packages/Backend/.yarn
 packages/Backend/node_modules
+
+# Ignore SmartContract build and yarn files
 packages/SmartContract/.yarn
 packages/SmartContract/artifacts
 packages/SmartContract/node_modules
 packages/SmartContract/yarn.lock
 packages/SmartContract/cache
-packages/JuliaTokenApp/node_modules
+
+# Ignore specific folders in JuliaTokenApp (if not needed for the repo)
+packages/JuliaTokenApp/ios/
+packages/JuliaTokenApp/android/
+packages/JuliaTokenApp/.yarn/
+packages/JuliaTokenApp/.bundle/
+packages/JuliaTokenApp/__tests__/
+packages/JuliaTokenApp/.vscode/
+
+# Don't ignore important files in JuliaTokenApp
+!packages/JuliaTokenApp/package.json
+!packages/JuliaTokenApp/package-lock.json
+!packages/JuliaTokenApp/yarn.lock
+!packages/JuliaTokenApp/App.tsx
+!packages/JuliaTokenApp/index.js
+!packages/JuliaTokenApp/tsconfig.json
+!packages/JuliaTokenApp/babel.config.js
+!packages/JuliaTokenApp/metro.config.js
