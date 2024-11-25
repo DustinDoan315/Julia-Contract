@@ -33,3 +33,4 @@ packages/JuliaTokenApp/.vscode/
 !packages/JuliaTokenApp/tsconfig.json
 !packages/JuliaTokenApp/babel.config.js
 !packages/JuliaTokenApp/metro.config.js
+packages/JuliaTokenApp/node_modules
