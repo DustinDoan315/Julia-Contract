@@ -11,9 +11,3 @@ packages/SmartContract/node_modules
 packages/SmartContract/yarn.lock
 packages/SmartContract/cache
 packages/JuliaTokenApp/node_modules
-packages/JuliaTokenApp/ios
-packages/JuliaTokenApp/android
-packages/JuliaTokenApp/package-lock.json
-packages/JuliaTokenApp/.yarn
-packages/JuliaTokenApp/.bundle
-packages/JuliaTokenApp/__tests__
